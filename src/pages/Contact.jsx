@@ -12,7 +12,7 @@ const Contact = () => {
 
   const handleSubmit=(event)=>{
     event.preventDefault();
-    console.log(contactInfo);
+    console.table(contactInfo);
     setContactInfo({name:"",email:"",phonenumber:""})
   }
   return (
